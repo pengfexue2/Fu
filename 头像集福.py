@@ -30,7 +30,7 @@ if __name__ == '__main__':
                 cindex=0
         except:
             cindex = 0
-    colorlist = ['#FF0000','#FF0000','#febec0','#FFFACD','#F0FFFF浅白','#BFEFFF']
+    colorlist = ['#FFFFFF','#FF0000','#febec0','#FFFACD','#F0FFFF浅白','#BFEFFF']
     canvas = Image.new('RGB', (4800, 4800), colorlist[cindex]) #ff0000大红 #febec0淡粉 #FFFACD淡黄 #F0FFFF浅白 #BFEFFF 蓝
 
     print("本福字最多可支持5668个不同头像，若图片不够会循环使用")
